@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="da54-2db0-7d98-7b89" name="Standard Units and Equipment Library" revision="10" battleScribeVersion="2.03" authorName="Lothar" authorContact="" library="false" gameSystemId="218d-602b-768b-7f56" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="da54-2db0-7d98-7b89" name="Standard Units and Equipment Library" revision="11" battleScribeVersion="2.03" authorName="Lothar" authorContact="" library="false" gameSystemId="218d-602b-768b-7f56" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <comment>This catalogue contains basic units and equipment available to all Legions. It&apos;s imported as standard catalogue by the specific Legion catalogues.</comment>
   <publications>
     <publication id="ea1d-c177-1851-0466" name="Legiones Astartes: Army List 2.11"/>
@@ -7419,7 +7419,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon wi
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+                <cost name="pts" typeId="9484-733c-9847-f18b" value="17.0"/>
                 <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
                 <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
               </costs>
@@ -16088,6 +16088,11 @@ embarked models disembark, roll a D6. On a 6, it explodes and each unit within 2
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="increment" field="9484-733c-9847-f18b" value="3.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef31-88e8-e7c7-cb80" type="max"/>
@@ -19219,6 +19224,13 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon wi
       </characteristics>
     </profile>
     <profile id="edb9-5824-1739-8e7d" name="Bolt pistol" hidden="false" typeId="27fa-2a60-59a3-6273" typeName="Weapon(s)">
+      <modifiers>
+        <modifier type="set" field="d174-04e0-bc7b-ea6c" value="-2">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bf21-7568-69a4-3a0d" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <characteristics>
         <characteristic name="Range" typeId="fb7b-3fd3-e596-3848">12&quot;</characteristic>
         <characteristic name="Type" typeId="198a-7eca-0c54-6f0a">Pistol 1</characteristic>
@@ -19469,6 +19481,13 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon wi
       </characteristics>
     </profile>
     <profile id="d74f-29bd-e575-487c" name="Boltgun" hidden="false" typeId="27fa-2a60-59a3-6273" typeName="Weapon(s)">
+      <modifiers>
+        <modifier type="set" field="d174-04e0-bc7b-ea6c" value="-2">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bf21-7568-69a4-3a0d" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <characteristics>
         <characteristic name="Range" typeId="fb7b-3fd3-e596-3848">24&quot;</characteristic>
         <characteristic name="Type" typeId="198a-7eca-0c54-6f0a">Rapid Fire 1</characteristic>
@@ -19501,6 +19520,13 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon wi
       </characteristics>
     </profile>
     <profile id="1788-1c1b-b357-cd1c" name="Master-crafted boltgun" hidden="false" typeId="27fa-2a60-59a3-6273" typeName="Weapon(s)">
+      <modifiers>
+        <modifier type="set" field="d174-04e0-bc7b-ea6c" value="-2">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f21-42de-f18a-2f39" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <characteristics>
         <characteristic name="Range" typeId="fb7b-3fd3-e596-3848">24&quot;</characteristic>
         <characteristic name="Type" typeId="198a-7eca-0c54-6f0a">Rapid Fire 1</characteristic>
@@ -19556,6 +19582,13 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon wi
       </characteristics>
     </profile>
     <profile id="29fa-c151-0f46-1f15" name="Heavy bolter" hidden="false" typeId="27fa-2a60-59a3-6273" typeName="Weapon(s)">
+      <modifiers>
+        <modifier type="set" field="d174-04e0-bc7b-ea6c" value="-2">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f21-42de-f18a-2f39" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <characteristics>
         <characteristic name="Range" typeId="fb7b-3fd3-e596-3848">36&quot;</characteristic>
         <characteristic name="Type" typeId="198a-7eca-0c54-6f0a">Heavy 3</characteristic>
@@ -19939,6 +19972,13 @@ choice</characteristic>
       </characteristics>
     </profile>
     <profile id="3986-084e-2c19-84a1" name="Master-crafted heavy bolter" hidden="false" typeId="27fa-2a60-59a3-6273" typeName="Weapon(s)">
+      <modifiers>
+        <modifier type="set" field="d174-04e0-bc7b-ea6c" value="-2">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f21-42de-f18a-2f39" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <characteristics>
         <characteristic name="Range" typeId="fb7b-3fd3-e596-3848">36&quot;</characteristic>
         <characteristic name="Type" typeId="198a-7eca-0c54-6f0a">Heavy 3</characteristic>
@@ -21655,7 +21695,7 @@ Your opponent must also subtract 1 from hit rolls for attacks against this model
         <characteristic name="S" typeId="591d-883a-73fa-87d9">3</characteristic>
         <characteristic name="AP" typeId="d174-04e0-bc7b-ea6c">0</characteristic>
         <characteristic name="D" typeId="fde9-623c-a082-78b0">1</characteristic>
-        <characteristic name="Abilities" typeId="8f3c-b1ed-80b8-dbfe">Blast weapon.. This weapon always wounds on a 2+, unless the target model is a VEHICLE.</characteristic>
+        <characteristic name="Abilities" typeId="8f3c-b1ed-80b8-dbfe">Blast weapon. This weapon always wounds on a 2+, unless the target model is a VEHICLE.</characteristic>
       </characteristics>
     </profile>
     <profile id="3025-6c6d-6a90-b01b" name="Power dagger" hidden="false" typeId="27fa-2a60-59a3-6273" typeName="Weapon(s)">
@@ -21750,6 +21790,13 @@ Your opponent must also subtract 1 from hit rolls for attacks against this model
       </characteristics>
     </profile>
     <profile id="9170-7d30-5ea9-84a4" name="Master-crafted bolt pistol" hidden="false" typeId="27fa-2a60-59a3-6273" typeName="Weapon(s)">
+      <modifiers>
+        <modifier type="set" field="d174-04e0-bc7b-ea6c" value="-2">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f21-42de-f18a-2f39" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <characteristics>
         <characteristic name="Range" typeId="fb7b-3fd3-e596-3848">12&quot;</characteristic>
         <characteristic name="Type" typeId="198a-7eca-0c54-6f0a">Pistol 1</characteristic>
