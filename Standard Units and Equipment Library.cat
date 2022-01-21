@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="da54-2db0-7d98-7b89" name="Standard Units and Equipment Library" revision="12" battleScribeVersion="2.03" authorName="Lothar" authorContact="" library="false" gameSystemId="218d-602b-768b-7f56" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="da54-2db0-7d98-7b89" name="Standard Units and Equipment Library" revision="14" battleScribeVersion="2.03" authorName="Lothar" authorContact="" library="false" gameSystemId="218d-602b-768b-7f56" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <comment>This catalogue contains basic units and equipment available to all Legions. It&apos;s imported as standard catalogue by the specific Legion catalogues.</comment>
   <publications>
     <publication id="ea1d-c177-1851-0466" name="Legiones Astartes: Army List 2.11"/>
@@ -121,7 +121,9 @@
     <categoryEntry id="51cb-1798-8c6f-4d34" name="Crew" hidden="false"/>
     <categoryEntry id="d883-207a-8861-6cb6" name="Artillery" hidden="false"/>
     <categoryEntry id="dd9d-f807-05e2-c0cc" name="Rapier Carrier" hidden="false"/>
-    <categoryEntry id="aad2-5933-1c7d-1721" name="Destroyer" hidden="false"/>
+    <categoryEntry id="aad2-5933-1c7d-1721" name="Destroyer" hidden="false">
+      <comment>Needed for Rad- and Melta grenades Stratagem -&gt; 0 CP</comment>
+    </categoryEntry>
     <categoryEntry id="b444-6578-60dc-98cc" name="Tactical Squad" hidden="false"/>
     <categoryEntry id="5dfe-9faa-9cc7-8710" name="Assault Squad" hidden="false"/>
     <categoryEntry id="ff02-cf36-1c2d-ab9b" name="Void Hardened" hidden="false"/>
@@ -170,7 +172,6 @@
     <categoryEntry id="93b3-1816-b0da-9dfb" name="Fire Raptor Assault Gunship" hidden="false"/>
     <categoryEntry id="9c15-6b51-b9cc-1037" name="Caestus Assault Ram" hidden="false"/>
     <categoryEntry id="62af-3d58-f10f-b42c" name="Cerberus" hidden="false"/>
-    <categoryEntry id="a8ff-fde4-66c1-0d5e" name="Typhon" hidden="false"/>
     <categoryEntry id="da99-d45c-78c5-981c" name="Falchion" hidden="false"/>
     <categoryEntry id="8386-fc50-072a-e52a" name="Stormblade" hidden="false"/>
     <categoryEntry id="877a-831d-c588-97d8" name="Fellblade" hidden="false"/>
@@ -194,41 +195,18 @@
     <categoryEntry id="2c5b-e139-c7cd-5afc" name="Exodus" hidden="false"/>
     <categoryEntry id="bc63-b708-b001-240e" name="Autilon Skorr" hidden="false"/>
     <categoryEntry id="33ec-8e0b-ee32-73fd" name="Interemptors" hidden="false"/>
-    <categoryEntry id="1c91-3036-4d45-0af6" name="Dreadwing" hidden="false"/>
-    <categoryEntry id="98c1-a1ec-0f16-1cdb" name="Deathwing" hidden="false"/>
     <categoryEntry id="f0d7-2f37-256b-5671" name="Deathwing Terminator" hidden="false"/>
-    <categoryEntry id="3509-b385-ae73-847e" name="Inner Circle Knights Cenobium" hidden="false"/>
     <categoryEntry id="ec8e-f3ae-3d77-6869" name="Grave Warden" hidden="false"/>
     <categoryEntry id="c995-b23f-6797-8081" name="Deathshroud" hidden="false"/>
-    <categoryEntry id="e34b-1523-8fc7-6dba" name="Durak Rask" hidden="false"/>
     <categoryEntry id="43fe-1b55-4704-bee1" name="Mortarion" hidden="false"/>
-    <categoryEntry id="2a86-3af6-14db-50c1" name="Crysos Morturg" hidden="false"/>
     <categoryEntry id="d2b0-2d92-1700-f6ca" name="Companions" hidden="false"/>
     <categoryEntry id="821d-b010-5793-2dd6" name="Firewing Enigmatus Cabal" hidden="false"/>
     <categoryEntry id="4e0a-96fb-5185-eaf6" name="Ironwing Excindio" hidden="false"/>
     <categoryEntry id="09d5-687a-afbb-95f4" name="Corswain" hidden="false"/>
     <categoryEntry id="4ab1-2861-aa66-ed0a" name="Marduk Sedras" hidden="false"/>
-    <categoryEntry id="2c0e-fd10-a538-0974" name="Farith Redloss" hidden="false"/>
-    <categoryEntry id="6318-c825-c27e-d357" name="Holguin" hidden="false"/>
-    <categoryEntry id="50c2-5e50-ff09-7dbc" name="Lion&apos;El Johnson" hidden="false"/>
-    <categoryEntry id="4621-f02b-a291-c3b8" name="Phoenix Terminators" hidden="false"/>
-    <categoryEntry id="83d8-96dd-6bc9-f37d" name="Palatine Blades" hidden="false"/>
-    <categoryEntry id="84e4-cce6-c22f-9f4d" name="Kakophoni" hidden="false"/>
-    <categoryEntry id="d9b9-af90-1674-09f2" name="Rylanor" hidden="false"/>
-    <categoryEntry id="030a-6c41-d1f8-394b" name="Eidolon" hidden="false"/>
-    <categoryEntry id="b4e4-9b98-1272-2fd5" name="Saul Tarvitz" hidden="false"/>
-    <categoryEntry id="1401-515b-309d-9d97" name="Fulgrim" hidden="false"/>
     <categoryEntry id="cab3-a5c6-5825-f854" name="Tyrant Siege Terminators" hidden="false"/>
-    <categoryEntry id="6eac-c80c-f67c-6004" name="Iron Havocs" hidden="false"/>
-    <categoryEntry id="c1c7-2e61-1ddb-7709" name="Iron Circle" hidden="false"/>
-    <categoryEntry id="878f-437c-7d26-8a88" name="Erasmus Golg" hidden="false"/>
-    <categoryEntry id="d205-2ead-eb97-4f48" name="Kyr Valen" hidden="false"/>
     <categoryEntry id="ff0b-4ecc-d1cd-850b" name="Warsmith" hidden="false"/>
-    <categoryEntry id="7379-77b8-423e-751e" name="Perturabo" hidden="false"/>
-    <categoryEntry id="8241-f1ff-2540-246e" name="Nârik Dreygur" hidden="false"/>
     <categoryEntry id="e152-738e-136d-6680" name="Shadowsword" hidden="false"/>
-    <categoryEntry id="68a9-7cc1-bd1b-5940" name="Golden Keshig" hidden="false"/>
-    <categoryEntry id="eebc-a1df-8ccd-f4e6" name="Ebon Keshig" hidden="false"/>
     <categoryEntry id="c328-52b5-089d-863b" name="Falcon&apos;s Claws" hidden="false"/>
     <categoryEntry id="9165-0ada-e8ac-06b3" name="Kyzagan Assault Speeder" hidden="false"/>
     <categoryEntry id="1e88-81dd-74bc-3740" name="Qin Xa" hidden="false"/>
@@ -236,53 +214,15 @@
     <categoryEntry id="ea0a-d7ca-dd34-07b3" name="Jaghatai Khan" hidden="false"/>
     <categoryEntry id="6d7d-4d00-d19e-649f" name="Deathsworn" hidden="false"/>
     <categoryEntry id="e2ca-e01d-0bd5-361e" name="Varagyr Terminators" hidden="false"/>
-    <categoryEntry id="893f-f2e9-8267-b72a" name="Grey Slayers" hidden="false"/>
-    <categoryEntry id="b777-a6fd-d6ae-5aae" name="Geigor Fell-Hand" hidden="false"/>
-    <categoryEntry id="576c-20d1-df78-8674" name="Hvarl Red-Blade" hidden="false"/>
     <categoryEntry id="af63-afd9-aadb-8664" name="Beast" hidden="false"/>
     <categoryEntry id="aba2-6790-cb69-cb02" name="Fenrisian Wulf" hidden="false"/>
-    <categoryEntry id="eaf8-ef3a-d819-b011" name="Wolf-kin of Russ" hidden="false"/>
-    <categoryEntry id="704a-198f-1bd3-237c" name="Leman Russ" hidden="false"/>
-    <categoryEntry id="2c0a-ba29-4007-7556" name="Templar Brethren" hidden="false"/>
-    <categoryEntry id="f3c3-b47a-081c-471d" name="Phalanx Warder" hidden="false"/>
-    <categoryEntry id="ea6d-ec66-69dc-3d6d" name="Alexis Polux" hidden="false"/>
-    <categoryEntry id="0de3-542c-648f-008f" name="Sigismund" hidden="false"/>
-    <categoryEntry id="bf14-41d8-ea76-3b0b" name="Rogal Dorn" hidden="false"/>
-    <categoryEntry id="275d-a56e-c674-3e18" name="Terror Squad" hidden="false"/>
-    <categoryEntry id="a483-6bb7-2d14-d994" name="Contekar" hidden="false"/>
-    <categoryEntry id="19e1-2f9a-04e2-40db" name="Night Raptors" hidden="false"/>
-    <categoryEntry id="cc9e-914b-cec2-7074" name="Huscarl" hidden="false"/>
     <categoryEntry id="2e6a-aea4-f80f-5bd5" name="Fafnir Rann" hidden="false"/>
-    <categoryEntry id="3a13-5171-57a3-ceb2" name="Sigismund" hidden="false"/>
     <categoryEntry id="b05a-dfbe-b0eb-f6d5" name="Aetos Dios" hidden="false"/>
-    <categoryEntry id="1e2b-4612-2810-d9b4" name="Atrementar" hidden="false"/>
-    <categoryEntry id="7b9b-528e-fcbe-65d5" name="Mawdrym Llansahai" hidden="false"/>
-    <categoryEntry id="e794-d980-9195-3ee6" name="Nakrid Thole" hidden="false"/>
-    <categoryEntry id="b37d-2355-0b24-7024" name="Sevatar" hidden="false"/>
-    <categoryEntry id="22cf-0d03-a3e0-40f0" name="Kheron Ophion" hidden="false"/>
-    <categoryEntry id="d59a-dab2-a5ea-a810" name="Konrad Curze" hidden="false"/>
-    <categoryEntry id="bb3b-0c6c-f7d6-3439" name="Dawnbreaker Cohort" hidden="false"/>
-    <categoryEntry id="dac1-661d-d1ff-21d4" name="Crimson Paladins" hidden="false"/>
-    <categoryEntry id="ffb1-12b9-d462-5c31" name="Angel&apos;s Tears" hidden="false"/>
     <categoryEntry id="db71-4dd6-daff-1443" name="Aster Crohne" hidden="false"/>
-    <categoryEntry id="c15e-062b-921d-2ef9" name="Dominion Zephon" hidden="false"/>
-    <categoryEntry id="f3e0-8f0d-b140-6158" name="Raldoron" hidden="false"/>
     <categoryEntry id="a360-1162-a517-e935" name="Sanguinius" hidden="false"/>
-    <categoryEntry id="d35c-9aad-9303-aff9" name="Gorgon Terminators" hidden="false"/>
-    <categoryEntry id="1892-f9b1-c644-aca9" name="Medusan Immortals" hidden="false"/>
-    <categoryEntry id="128b-65d7-de5e-0d65" name="Castrmen Orth" hidden="false"/>
     <categoryEntry id="63fc-6da8-4116-390a" name="Autek Mor" hidden="false"/>
-    <categoryEntry id="f3a1-c153-5416-1634" name="Shadrak Meduson" hidden="false"/>
-    <categoryEntry id="b179-8f48-2bc1-7b70" name="Ferrus Manus" hidden="false"/>
-    <categoryEntry id="e093-bf2f-a9ec-faf8" name="Red Butchers" hidden="false"/>
-    <categoryEntry id="a540-404d-26a5-454f" name="Red Hand" hidden="false"/>
-    <categoryEntry id="774e-e0d3-1b2a-6c91" name="Rampagers" hidden="false"/>
-    <categoryEntry id="dfa3-36f1-7dd9-e3ff" name="Shabran Darr" hidden="false"/>
-    <categoryEntry id="c8b5-5573-a94b-26cb" name="Kharn" hidden="false"/>
     <categoryEntry id="b2d1-561a-5457-38e8" name="Knight-Errant" hidden="false"/>
     <categoryEntry id="f0cd-1bf3-6246-d0e5" name="Endryd Harr" hidden="false"/>
-    <categoryEntry id="c0d1-01e7-bd49-2e86" name="Gahlan Surlak" hidden="false"/>
-    <categoryEntry id="3ae9-e633-b7c9-b93f" name="Angron" hidden="false"/>
     <categoryEntry id="3641-79ae-fd1e-c7f9" name="Sekhmet" hidden="false"/>
     <categoryEntry id="6bf3-12d9-56c1-aab1" name="Ahzek Ahriman" hidden="false"/>
     <categoryEntry id="a144-8fa9-9c04-8e93" name="Melta grenades" hidden="false"/>
@@ -298,6 +238,12 @@
     <categoryEntry id="3f21-42de-f18a-2f39" name="Banestrike" hidden="false"/>
     <categoryEntry id="6bb2-fdc7-23b2-11c6" name="Dominator" hidden="false"/>
     <categoryEntry id="5c85-eff3-f1d5-dba2" name="The Tormentor" hidden="false"/>
+    <categoryEntry id="acce-11dd-094c-78b6" name="Rad grenades" hidden="false"/>
+    <categoryEntry id="c4d1-6059-49c3-9f6f" name="Mawdrym Llansahai" hidden="false"/>
+    <categoryEntry id="d10d-596a-95d2-f3a7" name="Gorgon Terminators" hidden="false"/>
+    <categoryEntry id="e30e-7965-f5ac-1bb2" name="Castrmen Orth" hidden="false"/>
+    <categoryEntry id="cb93-2cc6-d551-9c35" name="Ferrus Manus" hidden="false"/>
+    <categoryEntry id="750a-1e46-0ac3-3c81" name="Red Butchers" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink id="e47a-1a76-7652-69f7" name="Legion Praetor" hidden="false" collective="false" import="true" targetId="a21e-ecd1-95e8-545e" type="selectionEntry">
@@ -669,8 +615,6 @@
         <categoryLink id="47a0-31ee-bb00-628e" name="Infantry" hidden="false" targetId="c9bb-6ccb-efae-6184" primary="false"/>
         <categoryLink id="44ca-41ba-04b9-dc86" name="New CategoryLink" hidden="false" targetId="c39a-99d8-e84f-b5f9" primary="true"/>
         <categoryLink id="1c9f-ce01-978d-07a3" name="Astartes" hidden="false" targetId="8eb7-c779-b4ba-c4ec" primary="false"/>
-        <categoryLink id="ecf1-6f16-32a5-89fa" name="Rad Grenades" hidden="false" targetId="1f7b-be8c-9f54-2cbe" primary="false"/>
-        <categoryLink id="1038-f2ac-01cc-66b9" name="Melta Grenade" hidden="false" targetId="0b4d-e882-e8a3-7cf3" primary="false"/>
         <categoryLink id="51b2-7ba0-3602-fcf2" name="Destroyer" hidden="false" targetId="d3aa-7976-a889-502d" primary="false"/>
       </categoryLinks>
     </entryLink>
@@ -1424,7 +1368,6 @@
         <categoryLink id="33e9-50dc-25bf-a7a7" name="Machine Spirit" hidden="false" targetId="a1b2-976a-25a7-5351" primary="false"/>
         <categoryLink id="7441-65c3-4212-e59a" name="Titanic" hidden="false" targetId="f786-fdca-5967-aa17" primary="false"/>
         <categoryLink id="04ec-5e0c-4735-dcbb" name="Tank" hidden="false" targetId="15f5-f74a-5044-6e1e" primary="false"/>
-        <categoryLink id="3535-d7e8-36e6-dc1f" name="Typhoon" hidden="false" targetId="a8ff-fde4-66c1-0d5e" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="af00-6141-476d-2656" name="Legion Falchion Super-Heavy Tank" hidden="false" collective="false" import="true" targetId="8c6b-cec5-64c0-ff22" type="selectionEntry">
@@ -2064,9 +2007,9 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon wi
             <conditionGroup type="or">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c46a-7ccd-8c8b-bac2" type="instanceOf"/>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="133c-e576-2e2d-8dd1" type="instanceOf"/>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1583-9bed-5d49-650e" type="instanceOf"/>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b9b-528e-fcbe-65d5" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="133c-e576-2e2d-8dd1" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c4d1-6059-49c3-9f6f" type="instanceOf"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -5713,11 +5656,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon wi
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="affc-67ca-7be2-7fe9" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="5f88-9ed8-e7ca-ab96" name="Rad grenades" hidden="false" collective="false" import="true" targetId="d31a-c255-eaf4-0e96" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba02-b50d-a038-381c" type="max"/>
-                      </constraints>
-                    </entryLink>
+                    <entryLink id="5f88-9ed8-e7ca-ab96" name="Rad grenades" hidden="false" collective="false" import="true" targetId="8ec2-c313-e49c-7170" type="selectionEntry"/>
                     <entryLink id="105d-fa67-7721-9e70" name="Cortex controller" hidden="true" collective="false" import="true" targetId="ec77-1743-cb5a-2d51" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" field="hidden" value="false">
@@ -5790,21 +5729,6 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon wi
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="77c2-7f98-ce26-2918" name="Rad grenades" hidden="false" collective="false" import="true" targetId="d31a-c255-eaf4-0e96" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f7b-be8c-9f54-2cbe" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2187-91c2-00a3-a7de" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e7b-862f-4039-bcb0" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
         <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
@@ -5853,7 +5777,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon wi
                       </constraints>
                       <entryLinks>
                         <entryLink id="436c-2fe1-5aa4-136f" name="Frag &amp; Krak missiles" hidden="false" collective="false" import="true" targetId="0351-228e-714a-31ea" type="selectionEntry"/>
-                        <entryLink id="1503-c29f-1abf-8eba" name="Rad grenades" hidden="false" collective="false" import="true" targetId="25c2-0f4a-087b-d8df" type="selectionEntry"/>
+                        <entryLink id="1503-c29f-1abf-8eba" name="Rad grenades" hidden="false" collective="false" import="true" targetId="8ec2-c313-e49c-7170" type="selectionEntry"/>
                       </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
@@ -5897,16 +5821,6 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon wi
       </infoLinks>
       <costs>
         <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
-        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
-        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="25c2-0f4a-087b-d8df" name="Rad grenades" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="6bde-f2b2-1f4f-d189" name="Rad grenades" hidden="false" targetId="2199-1500-45ec-1e64" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="9484-733c-9847-f18b" value="15.0"/>
         <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
         <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
       </costs>
@@ -6918,7 +6832,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon wi
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3cf-1232-79cf-da0b" type="max"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="7756-15a7-e761-c326" name="Rad grenades" hidden="false" targetId="2199-1500-45ec-1e64" type="profile">
+                        <infoLink id="7756-15a7-e761-c326" name="Rad grenades" hidden="false" targetId="df5e-5dc1-9edc-371c" type="profile">
                           <modifiers>
                             <modifier type="set" field="name" value="Rad missiles"/>
                           </modifiers>
@@ -10752,7 +10666,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon wi
           <modifiers>
             <modifier type="set" field="5869-dce4-a042-51f3" value="1.0">
               <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="128b-65d7-de5e-0d65" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e30e-7965-f5ac-1bb2" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -11209,7 +11123,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon wi
           <modifiers>
             <modifier type="set" field="7060-f2ab-dc80-1d0e" value="1.0">
               <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="128b-65d7-de5e-0d65" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e30e-7965-f5ac-1bb2" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -13440,13 +13354,14 @@ made against that attack.</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76cc-be2a-63d9-8cb7" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="3bb3-aca1-aa8e-8a67" name="Rad grenades" hidden="true" collective="false" import="true" targetId="d31a-c255-eaf4-0e96" type="selectionEntry">
+            <entryLink id="3bb3-aca1-aa8e-8a67" name="Rad grenades" hidden="true" collective="false" import="true" targetId="8ec2-c313-e49c-7170" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="3bfb-9afb-5390-436b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6aab-0207-6fcc-dde4" type="atLeast"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" field="name" value="Rad missiles"/>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b732-c5e1-0f16-a58d" type="max"/>
@@ -16772,13 +16687,9 @@ embarked models disembark, roll a D6. On a 6, it explodes and each unit within 2
         <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="10bc-7a48-6e2d-a4f5" name="Melta grenade" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="10bc-7a48-6e2d-a4f5" name="Melta grenades" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="add" field="category" value="a144-8fa9-9c04-8e93">
-          <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="10bc-7a48-6e2d-a4f5" type="atLeast"/>
-          </conditions>
-        </modifier>
+        <modifier type="add" field="category" value="a144-8fa9-9c04-8e93"/>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b975-5d72-afd9-12ff" type="max"/>
@@ -16875,6 +16786,22 @@ embarked models disembark, roll a D6. On a 6, it explodes and each unit within 2
       </constraints>
       <infoLinks>
         <infoLink id="f540-8eed-36c7-f55d" name="Suspensor Web" hidden="false" targetId="4b62-c1a3-03ef-d2bd" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8ec2-c313-e49c-7170" name="Rad grenades" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="add" field="category" value="acce-11dd-094c-78b6"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cefe-9487-72c7-7c68" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="cbd7-27e7-cb9b-e0a9" name="Rad grenades" hidden="false" targetId="df5e-5dc1-9edc-371c" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
@@ -18204,12 +18131,13 @@ more than 9” away from any enemy models.</characteristic>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e093-bf2f-a9ec-faf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="750a-1e46-0ac3-3c81" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3641-79ae-fd1e-c7f9" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6bb2-fdc7-23b2-11c6" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d35c-9aad-9303-aff9" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d10d-596a-95d2-f3a7" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7341-ebb8-ec7a-3d3e" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ec8e-f3ae-3d77-6869" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e2ca-e01d-0bd5-361e" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="802f-fcec-e001-9bd8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -19734,7 +19662,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon wi
       <modifiers>
         <modifier type="set" field="fde9-623c-a082-78b0" value="2">
           <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b179-8f48-2bc1-7b70" type="instanceOf"/>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cb93-2cc6-d551-9c35" type="instanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -19751,7 +19679,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon wi
       <modifiers>
         <modifier type="set" field="fde9-623c-a082-78b0" value="3">
           <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b179-8f48-2bc1-7b70" type="instanceOf"/>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cb93-2cc6-d551-9c35" type="instanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -21882,12 +21810,6 @@ Your opponent must also subtract 1 from hit rolls for attacks against this model
         <characteristic name="Abilities" typeId="8f3c-b1ed-80b8-dbfe">When in base contact with two or more enemies the bearer gains +1 Attack.</characteristic>
       </characteristics>
     </profile>
-    <profile id="6f83-bc66-78d3-a3f6" name="Yimiria Stasis Bomb" hidden="false" typeId="8e66-667e-e09b-c25b" typeName="Stratagem">
-      <characteristics>
-        <characteristic name="CP" typeId="7175-d70f-ddef-26a3">1</characteristic>
-        <characteristic name="Effect" typeId="9730-e613-daf9-9aa7">You can use this Stratagem just before a friendly Deathsworn from your army attacks an INFANTRY or BIKER unit with a grenade in Shooting phase. You only make a single hit roll this phase; however, if it hits, the targets suffers D3 mortal wounds. Additionaly, when an enemy unit within 1&quot; of this Deathsworn unit is chosen to Fall Back, you can roll one D6; on a 4+ that unit cannot Fall Back this turn, unless the enemy unit is a VEHICLE or TITANIC unit.</characteristic>
-      </characteristics>
-    </profile>
     <profile id="f2f2-706e-decc-6222" name="Frost axe" hidden="false" typeId="27fa-2a60-59a3-6273" typeName="Weapon(s)">
       <characteristics>
         <characteristic name="Range" typeId="fb7b-3fd3-e596-3848">Melee</characteristic>
@@ -22057,7 +21979,7 @@ Your opponent must also subtract 1 from hit rolls for attacks against this model
       <modifiers>
         <modifier type="set" field="7175-d70f-ddef-26a3" value="0">
           <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d3aa-7976-a889-502d" type="instanceOf"/>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aad2-5933-1c7d-1721" type="instanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -22075,6 +21997,19 @@ as normal.</characteristic>
     <profile id="b9ab-4d86-0dfd-313f" name="Jealous Command" hidden="false" typeId="2324-ae93-2fea-0b85" typeName="Ability">
       <characteristics>
         <characteristic name="Effect" typeId="3117-79f3-eb21-c725">This unit must always be your army’s Warlord, unless its Legion&apos;s Primarch is also included.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="df5e-5dc1-9edc-371c" name="Rad grenades" hidden="false" typeId="8e66-667e-e09b-c25b" typeName="Stratagem">
+      <modifiers>
+        <modifier type="set" field="7175-d70f-ddef-26a3" value="0">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aad2-5933-1c7d-1721" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="CP" typeId="7175-d70f-ddef-26a3">1</characteristic>
+        <characteristic name="Effect" typeId="9730-e613-daf9-9aa7">You can use this Stratagem just before a friendly model with RAD GRENADES keyword from your army attacks a enemy unit with a missile launcher, grenade launcher or a grenade in the Shooting phase. Your opponent must subtract 1 from the Toughness characteristic of any INFANTRY or BIKER units until the end of the turn.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

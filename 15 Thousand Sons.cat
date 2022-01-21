@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="718d-4c5c-8cb9-2bc1" name="15 Thousand Sons" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="218d-602b-768b-7f56" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="718d-4c5c-8cb9-2bc1" name="15 Thousand Sons" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="218d-602b-768b-7f56" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="a83f-9bf4-0e23-2d1f" name="Castellax-Achea" hidden="false"/>
     <categoryEntry id="27ac-6143-d865-4659" name="Thousand Sons" hidden="false"/>
@@ -638,7 +638,7 @@ When manifesting or Denying a psychic power, first select a model in the unit - 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="5b2a-4da0-566b-4a8e" name="Melta grenades" hidden="false" collective="false" import="true" targetId="9170-eba7-625a-f5fe" type="selectionEntry">
+        <entryLink id="5b2a-4da0-566b-4a8e" name="Melta grenades" hidden="false" collective="false" import="true" targetId="10bc-7a48-6e2d-a4f5" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c598-c274-eae1-0629" type="max"/>
           </constraints>
@@ -904,7 +904,7 @@ within 6” will only suffer damage if the Perils of the Warp cause the last mod
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="445f-45dd-5097-9f6a" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="453d-41df-3c4f-a23d" name="Melta grenades" hidden="false" collective="false" import="true" targetId="9170-eba7-625a-f5fe" type="selectionEntry">
+                <entryLink id="453d-41df-3c4f-a23d" name="Melta grenades" hidden="false" collective="false" import="true" targetId="10bc-7a48-6e2d-a4f5" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5384-cd9b-2f66-ac8f" type="max"/>
                   </constraints>
@@ -932,7 +932,7 @@ within 6” will only suffer damage if the Perils of the Warp cause the last mod
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="5b06-678a-e6ab-24db" name="Melta grenades" hidden="false" collective="false" import="true" targetId="9170-eba7-625a-f5fe" type="selectionEntry">
+        <entryLink id="5b06-678a-e6ab-24db" name="Melta grenades" hidden="false" collective="false" import="true" targetId="10bc-7a48-6e2d-a4f5" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5355-ceb6-b8cd-9252" type="max"/>
           </constraints>
@@ -1168,6 +1168,11 @@ the target model is a VEHICLE. This weapon can only be used once per battle.</ch
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+                <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+                <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1238,6 +1243,11 @@ Flanking Manoeuvres: During deployment, you can set up this unit moving around t
                   </constraints>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+                <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+                <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ceac-023a-f84c-f296" name="Corvidae Discipline" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1251,6 +1261,11 @@ Flanking Manoeuvres: During deployment, you can set up this unit moving around t
                   </constraints>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+                <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+                <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1350,6 +1365,11 @@ Disciplines.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+                <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+                <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="aced-762f-e2cf-3392" name="Psyfire serpenta" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1368,13 +1388,24 @@ Disciplines.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+                <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+                <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+            <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+            <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="9484-733c-9847-f18b" value="370.0"/>
         <cost name="PL" typeId="b1e1-0497-949d-68af" value="19.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0a53-c953-704e-0908" name="Forewarning" hidden="false" collective="false" import="true" type="upgrade">
@@ -1389,6 +1420,11 @@ Disciplines.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="53dc-bdab-59f5-a5df" name="Prescience" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1402,6 +1438,11 @@ Disciplines.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5dc0-9a37-7ea7-cdfe" name="Reveal" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1415,6 +1456,11 @@ Disciplines.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9c7d-faeb-5ecd-c752" name="Horrify" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1428,6 +1474,11 @@ Disciplines.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d964-bc00-08f0-b640" name="Mass Hypnosis" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1441,6 +1492,11 @@ Disciplines.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="359a-0cd2-2cc8-b915" name="Mind Control" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1454,6 +1510,11 @@ Disciplines.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1485,6 +1546,11 @@ Disciplines.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+            <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+            <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5e14-8434-0dca-0d83" name="Blood Boil" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1498,6 +1564,11 @@ Disciplines.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+            <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+            <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2953-d5f5-4bcf-a53e" name="Renewal" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1511,6 +1582,11 @@ Disciplines.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+            <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+            <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -1528,6 +1604,11 @@ Disciplines.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+            <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+            <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2164-4a5b-770f-8b13" name="Inferno" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1541,6 +1622,11 @@ Disciplines.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+            <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+            <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="90d7-e551-9e15-5a03" name="Sunburst" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1554,6 +1640,11 @@ Disciplines.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+            <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+            <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -1577,6 +1668,11 @@ Disciplines.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+            <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+            <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="617c-da9e-f61b-f7e8" name="Psychic Barrier" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1590,6 +1686,11 @@ Disciplines.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+            <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+            <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="039c-87b1-a154-9d4b" name="Nightshroud" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1603,6 +1704,11 @@ Disciplines.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+            <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+            <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>

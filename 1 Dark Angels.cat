@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6c8a-a156-45f2-b831" name="1 Dark Angels" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="218d-602b-768b-7f56" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6c8a-a156-45f2-b831" name="1 Dark Angels" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="218d-602b-768b-7f56" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="1190-7c0d-b54b-e320" name="Dreadwing" hidden="false"/>
     <categoryEntry id="cf22-0f0c-39d6-7a6c" name="Deathwing" hidden="false"/>
@@ -22,7 +22,6 @@
         <categoryLink id="846d-36ac-046b-b8c5" name="Destroyer" hidden="false" targetId="aad2-5933-1c7d-1721" primary="false"/>
         <categoryLink id="89ba-2dea-8e7b-7c97" name="Astartes" hidden="false" targetId="8eb7-c779-b4ba-c4ec" primary="false"/>
         <categoryLink id="4d0a-9c09-4a06-93d8" name="Interemptors" hidden="false" targetId="33ec-8e0b-ee32-73fd" primary="false"/>
-        <categoryLink id="4306-e3b2-d66b-706f" name="Rad Grenades" hidden="false" targetId="1f7b-be8c-9f54-2cbe" primary="false"/>
         <categoryLink id="cef1-1e5f-396e-9feb" name="Melta grenades" hidden="false" targetId="a144-8fa9-9c04-8e93" primary="false"/>
         <categoryLink id="f753-33fe-65f9-d82e" name="Dreadwing" hidden="false" targetId="1190-7c0d-b54b-e320" primary="false"/>
       </categoryLinks>
@@ -106,7 +105,6 @@
         <categoryLink id="327c-cb14-019f-7d67" name="Astartes" hidden="false" targetId="8eb7-c779-b4ba-c4ec" primary="false"/>
         <categoryLink id="3657-d2ab-6d7b-7097" name="Praetor" hidden="false" targetId="c46a-7ccd-8c8b-bac2" primary="false"/>
         <categoryLink id="02cf-6bb2-6d1d-020f" name="Master of the Legion" hidden="false" targetId="5142-9e49-4ae3-54f8" primary="false"/>
-        <categoryLink id="76ce-d01c-915e-8228" name="Rad Grenades" hidden="false" targetId="1f7b-be8c-9f54-2cbe" primary="false"/>
         <categoryLink id="acc1-b2ef-93a8-1e6c" name="Melta grenades" hidden="false" targetId="a144-8fa9-9c04-8e93" primary="false"/>
         <categoryLink id="0d45-9ba4-dfb5-a231" name="Farith Redloss" hidden="false" targetId="187c-3049-528b-5bb4" primary="false"/>
       </categoryLinks>
@@ -1538,6 +1536,11 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+                    <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+                    <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
@@ -1598,11 +1601,17 @@
               </constraints>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+            <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+            <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="PL" typeId="b1e1-0497-949d-68af" value="11.0"/>
         <cost name="pts" typeId="9484-733c-9847-f18b" value="115.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d5b-94c5-0bef-8f55" name="Plasma repeater" hidden="false" collective="false" import="true" type="upgrade">
@@ -1630,6 +1639,8 @@
       </profiles>
       <costs>
         <cost name="pts" typeId="9484-733c-9847-f18b" value="13.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="18ee-ab1e-aee8-4bd3" name="Athanax pattern phosphex canister launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -1645,6 +1656,11 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a0cd-94fb-4d78-32fc" name="Tyrhenius pattern nerve induction shredder" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1659,6 +1675,11 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c218-8fa6-90d3-1089" name="Magaron pattern atomantic pulse cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1673,6 +1694,11 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8b54-4593-4918-c7c4" name="Manipulator arm" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1687,6 +1713,11 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7302-844b-4b02-b1b5" name="Cytheron pattern graviton flux projector" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1701,6 +1732,11 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f383-72a5-67d6-4da4" name="Corswain" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -1775,6 +1811,11 @@
               </constraints>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+            <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+            <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5ddc-173e-0231-f0fc" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1787,11 +1828,17 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+            <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+            <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="9484-733c-9847-f18b" value="120.0"/>
         <cost name="PL" typeId="b1e1-0497-949d-68af" value="6.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f04-daa6-48fe-cbb0" name="Blade of Corswain" hidden="false" collective="false" import="true" type="upgrade">
@@ -1807,6 +1854,11 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3d69-2e8e-2edb-03ad" name="Marduk Sedras" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -1879,6 +1931,11 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+                <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+                <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1898,6 +1955,11 @@
               </constraints>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+            <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+            <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f33d-c868-3140-53b7" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1910,11 +1972,17 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+            <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+            <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="9484-733c-9847-f18b" value="140.0"/>
         <cost name="PL" typeId="b1e1-0497-949d-68af" value="6.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8ba5-2279-63ee-be56" name="Plasma burner" hidden="false" collective="false" import="true" type="upgrade">
@@ -1940,6 +2008,11 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d1fc-9f01-d620-56e0" name="Farith Redloss" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -1980,7 +2053,7 @@
       <infoLinks>
         <infoLink id="74f3-5fa9-8432-4d26" name="Rites of Battle (Aura)" hidden="false" targetId="2ede-9b2b-d541-2d6a" type="profile"/>
         <infoLink id="a32b-1edd-9709-a6e3" name="Melta grenades" hidden="false" targetId="57fa-a998-ecae-8abf" type="profile"/>
-        <infoLink id="3871-1762-fcae-0dcd" name="Rad grenades" hidden="false" targetId="2199-1500-45ec-1e64" type="profile"/>
+        <infoLink id="3871-1762-fcae-0dcd" name="Rad grenades" hidden="false" targetId="df5e-5dc1-9edc-371c" type="profile"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="ec22-f244-82f0-73c8" name="Farith Redloss" hidden="false" collective="false" import="true" type="model">
@@ -2054,6 +2127,11 @@
               </constraints>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+            <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+            <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5833-e478-0b33-0328" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2066,11 +2144,17 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+            <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+            <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="9484-733c-9847-f18b" value="105.0"/>
         <cost name="PL" typeId="b1e1-0497-949d-68af" value="6.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6e4a-9e4e-6737-c6b2" name="Tyrhenian pattern neural shredder carbine" hidden="false" collective="false" import="true" type="upgrade">
@@ -2086,6 +2170,11 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7a44-d38c-3006-9b54" name="Magaron pattern atomantic pulse pistol" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2100,6 +2189,11 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="347d-55b9-f800-b592" name="Selenite shard-bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2115,6 +2209,11 @@ DAEMON OF THE RUINSTORM or PSYKER is instead counted as two wounds.</characteris
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="154e-ccac-faf5-e5da" name="Holguin" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -2190,6 +2289,11 @@ DAEMON OF THE RUINSTORM or PSYKER is instead counted as two wounds.</characteris
               </constraints>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+            <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+            <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6bc8-c4bd-90e1-f3bb" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2202,11 +2306,17 @@ DAEMON OF THE RUINSTORM or PSYKER is instead counted as two wounds.</characteris
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+            <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+            <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="9484-733c-9847-f18b" value="130.0"/>
         <cost name="PL" typeId="b1e1-0497-949d-68af" value="6.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="71a3-e183-8d24-fd0d" name="Viridian Blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -2222,6 +2332,11 @@ DAEMON OF THE RUINSTORM or PSYKER is instead counted as two wounds.</characteris
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="55c8-e34e-3689-7575" name="Lion El&apos;Jonson" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -2323,11 +2438,17 @@ litanies).</characteristic>
               </constraints>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+            <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+            <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="9484-733c-9847-f18b" value="300.0"/>
         <cost name="PL" typeId="b1e1-0497-949d-68af" value="15.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="733a-64d0-fa68-87a7" name="Wolf Blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -2343,6 +2464,11 @@ litanies).</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="63d9-8451-b96e-8cc9" name="Lion Sword" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2357,6 +2483,11 @@ litanies).</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e987-93ad-cee7-6e76" name="Fusil Actinaeus" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2371,6 +2502,11 @@ litanies).</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
+        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
+        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>

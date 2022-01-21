@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="218d-602b-768b-7f56" name="WH30k unofficial 9th Edition" revision="5" battleScribeVersion="2.03" authorName="Lothar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="218d-602b-768b-7f56" name="WH30k unofficial 9th Edition" revision="6" battleScribeVersion="2.03" authorName="Lothar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>BattleScribe data files for the unofficial Warhammer 30k 9th edition.</comment>
   <costTypes>
     <costType id="9484-733c-9847-f18b" name="pts" defaultCostLimit="-1.0" hidden="false"/>
@@ -116,10 +116,8 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fdc3-1bce-00fa-ba37" type="min"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="0b4d-e882-e8a3-7cf3" name="Melta Grenade" hidden="false"/>
     <categoryEntry id="aab4-57fd-7ce5-d6f5" name="Smokescreen" hidden="false"/>
     <categoryEntry id="a1b2-976a-25a7-5351" name="Machine Spirit" hidden="false"/>
-    <categoryEntry id="1f7b-be8c-9f54-2cbe" name="Rad Grenades" hidden="false"/>
     <categoryEntry id="61c0-9e6f-481b-1518" name="Flyer" hidden="false"/>
     <categoryEntry id="8278-c2c7-5e4d-036c" name="Psyker" hidden="false"/>
     <categoryEntry id="13df-8672-4581-e6b1" name="Support" hidden="false"/>
@@ -1028,26 +1026,6 @@
         <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d31a-c255-eaf4-0e96" name="Rad grenades" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="add" field="category" value="1f7b-be8c-9f54-2cbe"/>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a50b-98f8-37ce-59d9" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="f2b5-6f9f-901a-dd4b" name="Rad grenades" hidden="false" targetId="2199-1500-45ec-1e64" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="ca5b-7e3f-3caa-4591" name="New CategoryLink" hidden="false" targetId="9927-0892-30f6-d25a" primary="true"/>
-        <categoryLink id="ca9d-6821-4048-a516" name="Stratagem" hidden="false" targetId="3cea-ddab-6257-a5ae" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="9484-733c-9847-f18b" value="0.0"/>
-        <cost name="CP" typeId="1fac-937b-7466-575c" value="0.0"/>
-        <cost name="PL" typeId="b1e1-0497-949d-68af" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="16f5-c439-3120-136e" name="Terrain" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b621-d806-be9d-54bc" type="max"/>
@@ -1062,7 +1040,6 @@
     <selectionEntry id="7852-1619-272b-dfe0" name="Fealty" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7037-5393-9e51-b8d5" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5ef5-a309-20f4-e66b" type="min"/>
       </constraints>
       <selectionEntryGroups>
         <selectionEntryGroup id="289f-e1f7-5cef-a138" name="Fealty" hidden="false" collective="false" import="true" defaultSelectionEntryId="c642-00b9-f31e-17e5">
@@ -1104,19 +1081,6 @@
     <profile id="ace7-d3c6-c6b2-384c" name="Explodes (6&quot;/D6)" hidden="false" typeId="2324-ae93-2fea-0b85" typeName="Ability">
       <characteristics>
         <characteristic name="Effect" typeId="3117-79f3-eb21-c725">If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit within 6” suffers D6 mortal wounds.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="2199-1500-45ec-1e64" name="Rad grenades" hidden="false" typeId="8e66-667e-e09b-c25b" typeName="Stratagem">
-      <modifiers>
-        <modifier type="set" field="7175-d70f-ddef-26a3" value="0.0">
-          <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d3aa-7976-a889-502d" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <characteristics>
-        <characteristic name="CP" typeId="7175-d70f-ddef-26a3">1</characteristic>
-        <characteristic name="Effect" typeId="9730-e613-daf9-9aa7">You can use this Stratagem just before a friendly model with RAD GRENADES keyword from your army attacks a enemy unit with a missile launcher, grenade launcher or a grenade in the Shooting phase. Your opponent must subtract 1 from the Toughness characteristic of any INFANTRY or BIKER units until the end of the turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="3822-1f21-441e-6c57" name="Explodes (3&quot;/D3)" hidden="false" typeId="2324-ae93-2fea-0b85" typeName="Ability">

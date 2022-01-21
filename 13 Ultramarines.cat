@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8fab-eff9-a93b-2528" name="13 Ultramarines" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="218d-602b-768b-7f56" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8fab-eff9-a93b-2528" name="13 Ultramarines" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="218d-602b-768b-7f56" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="2b2d-1245-3986-08ea" name="Ultramarines" hidden="false"/>
     <categoryEntry id="ea76-4e92-ee3b-ac1a" name="Invictarus Suzerain" hidden="false"/>
@@ -71,7 +71,6 @@
         <categoryLink id="984a-0218-762c-016b" name="Astartes" hidden="false" targetId="8eb7-c779-b4ba-c4ec" primary="false"/>
         <categoryLink id="7481-d3ed-3282-0b69" name="Herald" hidden="false" targetId="f3f5-2910-64f8-b292" primary="false"/>
         <categoryLink id="627f-fd2e-b7cd-e878" name="Master of the Legion" hidden="false" targetId="5142-9e49-4ae3-54f8" primary="false"/>
-        <categoryLink id="1034-50e6-e475-73c4" name="Melta Grenade" hidden="false" targetId="0b4d-e882-e8a3-7cf3" primary="false"/>
         <categoryLink id="312b-bf36-6d7b-5ebf" name="Remus Ventanus" hidden="false" targetId="77c0-b5fa-f12b-c229" primary="false"/>
       </categoryLinks>
     </entryLink>
@@ -106,7 +105,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1064-8582-494b-f022" name="Melta grenades" hidden="false" targetId="73ad-d9d6-67ea-4313" type="profile"/>
+        <infoLink id="1064-8582-494b-f022" name="Melta grenades" hidden="false" targetId="57fa-a998-ecae-8abf" type="profile"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="c536-d6fc-a936-1f15" name="Invictarus Suzerain" hidden="false" collective="false" import="true" type="model">
@@ -350,7 +349,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0c4-f73f-acc2-2d41" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="bbc7-cb66-199c-c72b" name="Melta grenades" hidden="false" collective="false" import="true" targetId="9170-eba7-625a-f5fe" type="selectionEntry">
+                <entryLink id="bbc7-cb66-199c-c72b" name="Melta grenades" hidden="false" collective="false" import="true" targetId="10bc-7a48-6e2d-a4f5" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b146-e247-a934-2c6b" type="max"/>
                   </constraints>
@@ -726,7 +725,7 @@
         <infoLink id="9398-f994-6acc-7c59" name="Rites of Battle (Aura)" hidden="false" targetId="2ede-9b2b-d541-2d6a" type="profile"/>
         <infoLink id="c37a-21b9-cf6a-f42b" name="Legion Banner" hidden="false" targetId="9eb3-340c-ab41-2b84" type="profile"/>
         <infoLink id="49d6-d685-9043-42cc" name="Nuncio vox" hidden="false" targetId="93dd-5a69-f375-ed67" type="profile"/>
-        <infoLink id="9a7c-af95-2cf1-e9da" name="Melta grenades" hidden="false" targetId="73ad-d9d6-67ea-4313" type="profile"/>
+        <infoLink id="9a7c-af95-2cf1-e9da" name="Melta grenades" hidden="false" targetId="57fa-a998-ecae-8abf" type="profile"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="6da6-1723-d53d-5895" name="Remus Ventanus" hidden="false" collective="false" import="true" type="model">
